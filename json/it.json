@@ -1,0 +1,87 @@
+{
+    "barra__navegacion": {
+        "inicio": "Inizio",
+        "productos": "Prodotti",
+        "nosotros": "Noi",
+        "proceso": "Processi"
+    },
+    "footer": {
+        "descripcion": "Corona Roja è miele 100% naturale, prodotto con passione e cura artigianale a Córdoba, Argentina.",
+        "contacto": "Contatti",
+        "seguinos": "Seguici",
+        "horario": "Lun a Sab dalle 8 alle 18",
+        "copy": "2025 Corona Roja. Tutti i diritti riservati."
+    },
+
+    "hero": {
+        "title-1": "Corona Rossa", 
+        "text-1": "Origine Argentina al 100%",
+        "title-2": "Prodotto Artigianale", 
+        "text-2": "Con la stessa qualità di sempre", 
+        "title-3": "Miele Puro e non Miscelato", 
+        "text-3": "Direttamente dall'apicoltore"
+    },
+
+    "saludable": {
+        "title-1": "Alimentati in modo sano.", 
+        "text-1": "Il nostro miele 100% naturale è la scelta perfetta per chi desidera prendersi cura della propria salute senza rinunciare al gusto. Scegliere Corona Roja significa optare per la purezza, la qualità e il potere nutriente della natura in ogni goccia."
+    },
+
+    "productos": {
+        "title": "I Nostri Prodotti",
+        "titleMiel": "Miele Puro - 1kg",
+        "descripcion": "Vaso di vetro, 100% miele naturale senza conservanti.",
+        "boton": "Vedi prodotto",
+        "titleMiel-2": "Miele Pura - 500g",
+        "descripcion-2": "Confezione in vetro, dimensione ideale per l'uso quotidiano.",
+        "titleMiel-3": "Miele Pura - 250g",
+        "descripcion-3": "Vasetto compatto e pratico da regalare o portare in viaggio",
+        "titleMiel-4": "Miele Pura - 40g",
+        "descripcion-4": "Perfetto per assaporare il gusto autentico del nostro miele", 
+        "titleMiel-5": "Confezione Miele Puro - 20g", 
+        "descripcion-5": "Mini vasetto per souvenir o degustazioni."
+    },
+    "productoBeneficio": {
+        "segura": "Acquisto Sicuro",
+        "natural": "Miele 100% Naturale",
+        "saludable": "Alimento Sicuro e Salutare",
+        "atencion": "Assistenza 24 ore su 24"
+    },
+    "nosotros": {
+        "title": "Chi Siamo?", 
+        "descripcion": "Non produciamo solo miele, creiamo esperienze che connettono con la natura. Il nostro alveare è la tua storia. Viviamo per onorare l'artigianalità e la semplicità.",
+        "boton": "Scopri di più"
+    },
+
+
+
+    "nosotrosPag": {
+        "title": "La nostra storia",
+        "text-1": "La storia di Corona Roja ha radici lontane. Tutto è iniziato con i nonni della nostra famiglia, che a Jujuy, in Argentina, hanno dedicato la loro vita all'apicoltura, diventando i pionieri della nostra storia familiare. Fin dall'inizio, il loro impegno è stato chiaro: produrre miele 100% naturale, rispettando sempre l'equilibrio della natura e il benessere delle api.",
+        "text-2": "Con gli anni, questa passione è passata di generazione in generazione, fino a quando la nostra famiglia ha deciso di continuare la tradizione a Cruz del Eje, a Córdoba. Così è nata Corona Roja, con lo stesso proposito di sempre: portare sulla tua tavola miele puro, senza aggiunte né processi industriali, prodotto con la cura e l'amore di sempre",
+        "subtitle-1": "Dalla nostra famiglia alla tua",
+        "text-3": "Ci occupiamo personalmente di tutto il processo; dai nostri apiari raccogliamo e confezioniamo ogni vasetto di miele per assicurarci che arrivi in ogni casa con il suo sapore autentico e tutte le sue proprietà intatte. Crediamo nel lavoro artigianale e nell'importanza di offrirti un prodotto veramente naturale, senza scorciatoie né sostanze chimiche che ne alterino la qualità.",
+        "subtitle-2": "Più che miele, un impegno",
+        "text-4": "Quella che è iniziata come una produzione familiare oggi raggiunge case, negozi e industrie che cercano qualità e affidabilità in ogni vasetto. Sappiamo che quando scegli il nostro miele, non cerchi solo un buon prodotto, ma anche una storia di tradizione e rispetto per la natura.",
+        "text-5": "Lavoriamo con pratiche responsabili, perché crediamo che la cura delle api sia fondamentale per l'equilibrio dell'ecosistema.",
+        "subtitle-3": "Un nuovo passo: il mondo digitale",
+        "text-6": "Oggi, dopo anni di lavoro, sentiamo che è il momento di fare un ulteriore passo avanti e portare Corona Roja nel mondo digitale. Vogliamo che più persone possano gustare il nostro miele e conoscere la storia che si cela dietro ogni vasetto.",
+        "text-7": "Se cerchi miele puro, fatto con dedizione e tradizione, vogliamo che tu sappia che in Corona Roja lo troverai."
+    },
+
+
+    "proceso": {
+        "title": "Processo",
+        "subtitle-1": "Cura degli Alveari",
+        "text-1": "I nostri apiari sono situati a Cruz del Eje, Córdoba, dove le api lavorano in un ambiente naturale. Ci assicuriamo che gli alveari siano sani e protetti, rispettando il loro ciclo naturale e promuovendo una produzione sostenibile.",
+        "subtitle-2": "Raccolta del Miele",
+        "text-2": "Quando il miele raggiunge il suo punto ottimale di maturazione, effettuiamo la raccolta con tecniche che garantiscono la qualità del prodotto e il benessere delle api. Estraiamo i favi con cura, assicurandoci di conservarne la purezza.",
+        "subtitle-3": "Estrazione e Filtraggio",
+        "text-3": "Utilizziamo metodi tradizionali per estrarre il miele senza alterarne le proprietà. Successivamente, lo filtriamo per eliminare impurità naturali come residui di cera, garantendo una consistenza liscia e omogenea.",
+        "subtitle-4": "Confezionamento ed Etichettatura",
+        "text-4": "Ogni vasetto di miele viene confezionato nel nostro stabilimento, assicurando igiene e controllo di qualità in ogni fase. Quindi, applichiamo le etichette con l'identità di Corona Roja, evidenziando la storia e l'origine del nostro miele.",
+        "subtitle-5": "Distribuzione e Vendita",
+        "text-5": "Il nostro miele arriva a privati, negozi e hotel, conservando sempre il suo sapore autentico e naturale. Ci assicuriamo che ogni cliente riceva un prodotto fresco e di qualità."
+    }
+}
+  

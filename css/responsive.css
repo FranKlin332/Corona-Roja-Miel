@@ -1,0 +1,462 @@
+@media (max-width: 1270px){ 
+    .barra__flex {
+        padding: 0 2rem;
+    }
+
+    .productos__grid {
+        margin: 0;
+    }
+    .nosotros__img-box {
+        flex-basis: 45%;
+    }
+    .nosotros__contenido {
+        flex-basis: calc(55% - 1rem);
+    }
+    .nosotros__title {
+        font-size: 3.5rem;
+    }
+    .nosotros__title-img {
+        width: 10rem;
+        height: auto;
+    }
+
+    .productos__panel {
+        top: 38%;
+        right: 0%;
+    }
+
+}
+
+@media (max-width: 1178px) {
+    .nosotros__texto {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+    .nosotros__title::after {
+        height: .5rem;
+    }
+    .nosotros__img {
+        width: 100%;
+        height: 30rem;
+    }
+    .nosotros-fondo__img {
+        top: 38%;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 1055px){ 
+    .productos__grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin: 0 5rem;
+    }
+    .producto__estrellas {
+        top: 68%;
+    }
+    .productos__panel{
+        top: 56%;
+    }
+    .productos__panel {
+        top: 55%;
+        right: 0%;
+    }
+
+    /* ______ NOSOTROS ________ */
+    .nosotros {
+        padding: 5rem 5rem ;
+        height: auto;
+    }
+    .nosotros__box {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
+        gap: 2rem;
+    }
+
+    .nosotros__img-box {
+        position: relative;
+        width: 500px; /* Ajusta este valor según el ancho total del panel */
+        height: 35rem;
+        margin: 0 auto; /* Esto centra el bloque de hexágonos */
+    }
+    .nosotros__contenido {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .nosotros__panel {
+        top: 60%;
+        right: 0;
+    }
+    .nosotros__abeja {
+        top: 37%;
+        left: 55%;
+    }
+
+    .modal__img {
+        width: 50%; height: 50%;
+    }
+}
+
+@media (max-width: 1000px){ 
+    .hero__title {
+        padding: 0 2rem;
+    }
+    .hero__description {
+        font-size: 3.2rem;
+    }
+    .productos__grid {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 860px){ 
+
+    /* ____________ NAVEGACION _______________ */
+    .barra__flex {
+        padding: 0 5rem;
+    }
+    .navegacion__links { /* No usamos display none, si no visibility */
+        position: absolute;
+        z-index: 40;
+        left: 0;
+        top: 105%;
+        width: 100%;
+        height: auto;
+        background-color: var(--secundario);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 0rem 3rem;
+        border-bottom: 1px solid var(--beige);
+
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: all .5s ease-in-out;
+    }
+    /* Cuando el menú está activo */
+    .nav-activo {
+        transform: translateX(0); /* Se desliza hacia adentro */
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navegacion__item {
+        width: 100%;
+    }
+    .navegacion__enlace {
+        display: block;
+        width: 100%;
+        padding: 2.5rem 2rem;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Bordecito sutil */
+    }
+    .navegacion__enlace:hover {
+        color: var(--beige);
+        background-color: rgba(255, 255, 255, 0.1); /* Opacidad suave */
+    }
+    .navegacion__item::before { /* Sacamos el border de abajo marron */
+        display: none;
+    }
+
+    .navegacion__idioma {
+        padding: 2.5rem 2rem;
+        gap: 2.5rem;
+    }
+    .submenu__link img {
+        width: 3.2rem;
+        height: 2rem;
+    }
+
+    /* __________________ SUBMENUS ________________ */
+    .enlace__submenu { /* No usamos display none y flex porque rompe la transicion */
+        width: 100%;
+        background-color: var(--secundario);
+        margin: 0;
+        transition: all .6s ease;
+        padding: 3rem 2rem;
+    }
+
+    
+    /* ____________ BOTONES _______________ */
+    .barra__menu {
+        display: flex;
+        position: absolute;
+        right: 5rem;
+        width: 5rem;
+        cursor: pointer;
+    }
+    .barra__button-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: rotate(90deg);
+    }
+
+    /* Agregar clase menu-activo, que cuando este activo, muestra clsoe */
+    .barra__button-open,
+    .barra__button-close {
+        pointer-events: none;
+        transition: all .3s ease-in-out;
+    }
+    .menu-active .barra__button-open {
+        opacity: 0;
+        visibility: hidden;
+        transform: rotate(90deg);
+    }
+    .menu-active .barra__button-close {
+        opacity: 1;
+        visibility: visible;
+        transform: rotate(0deg);
+    }
+
+
+    /* ___________ PRODUCTOS __________ */
+    .productos__title {
+        font-size: 4.5rem;
+    }
+    .producto__estrellas {
+        top: 65%;
+        width: 8rem;
+    }
+    .modal__img {
+        width: 60%; height: 60%;
+    }
+}
+
+@media (max-width: 750px){ 
+    .descripcion__flex {
+        padding: 4rem 0;
+    }
+    .descripcion__palos {
+        top: -12%;
+        left: -12%;
+        width: 32rem;
+    }
+
+    .productos__title {
+        text-align: center;
+        width: 100%;
+    }
+    .productos__title::after,
+    .nosotros__title::after {
+        height: .4rem;
+        margin: 0 auto;
+        
+    }
+    .productos__grid {
+        gap: 1.2rem;
+    }
+    .productos__panel {
+        right: -10%;
+    }
+
+    .nosotros__title {
+        font-size: 3.2rem;
+    }
+    .destacado__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nosotros-fondo__img {
+        width: 25rem;
+        top: calc(100% - 25rem);
+    }    
+
+    .footer__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .proceso__paso {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .paso__img {
+        height: 40rem;
+    }
+    .proceso__img--palo {
+        top: 0%; left: -15%;
+        width: 25rem;
+    }
+    .proceso__img--panal {
+        top: 20%; right: -20%;
+    }
+}
+
+@media (max-width: 600px){ 
+    .producto__estrellas {
+        top: 62%;
+    }
+
+    .nosotros__box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .nosotros__title {
+        font-size: 4rem;
+    }
+    .nosotros__texto {
+        text-align: left
+    }
+
+    .footer__grid,
+    .footer__left {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 546px){ 
+    .hero__title {
+        font-size: 6.5rem;
+    }
+    .swiper-button-prev {
+        margin-left: .5rem;
+    }
+    .swiper-button-next {
+        margin-right: .5rem;
+    }
+    
+
+    .productos__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin: 0 2rem;
+    }
+    .productos__title {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+    .producto__img-container {
+        height: 35rem;
+    }
+    .producto__estrellas {
+        width: 8rem;
+        top: 69%;
+    }
+    .producto__card:last-of-type .producto__estrellas {
+        top: 66%;
+    }
+    .productos__panel {
+        top: 88%;
+        right: -20%;
+    }
+}
+
+@media (max-width: 500px){ 
+    .hero__title {
+        font-size: 5.2rem;
+    }
+    .hero__description {
+        font-size: 2.4rem;
+    }
+
+
+    .descripcion__flex {
+        padding: 4rem 1rem;
+    }
+    .descripcion__img {
+        width: 10rem;
+    }
+    .descripcion__texto {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        text-align: left;
+    }
+    
+    .descripcion__palos {
+        top: -8%;
+        left: -20%;
+        width: 25rem;
+    }
+    .descripcion__panel {
+        width: 10rem;
+    }
+
+    .destacado__imm {
+        width: 8rem;
+    }
+    .destacado__title {
+        font-size: 1.6rem;
+    }
+    
+    .nosotros__img-box {
+        position: relative;
+        height: 20rem;
+    } 
+    /* Posiciones manuales */
+    .hex1 { top: 20px; left: 120px; width: 100px; }
+    .hex2 { top: -25px; left: 200px; width: 100px; }
+    .hex3 { top: 112px; left: 118px; width: 100px; }
+    .hex4 { top: 68px; left: 198px; width: 100px; }
+    .hex5 { top: 23px; left: 278px; width: 100px; }
+
+    .nosotros__title {
+        font-size: 3rem;
+    }
+    .nosotros__btn {
+        width: 100%;
+        text-align: center;
+    }
+    .nosotros__abeja {
+        display: none;
+    }
+    .nosotros__panel {
+        width: 10rem;
+    }
+
+    .modal__img {
+        width: 100%; height: 100%;
+    }
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ------------------- PAGINAS ------------------ */
+@media (max-width: 860px){ 
+    .nosotrosPag__digital {
+        padding: 2rem 6rem;
+    }
+    .nosotrosPag__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .nosotrosPag__contenido {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nosotrosPag__grid {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nosotrosPag__img-box,
+    .nosotrosPag__content-box {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 500px){ 
+    .nosotrosPag__digital {
+        padding: 2rem;
+    }
+    .nosotrosPag__panel {
+        width: 10rem;
+        opacity: .7;
+    }
+}

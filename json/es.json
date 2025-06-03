@@ -1,0 +1,85 @@
+{
+
+    "barra__navegacion": {
+        "inicio": "Inicio",
+        "productos": "Productos",
+        "nosotros": "Nosotros",
+        "proceso": "Procesos"
+    },
+    "footer": {
+        "descripcion": "Corona Roja es miel 100% natural, producida con pasión y cuidado artesanal en Córdoba, Argentina.",
+        "contacto": "Contacto",
+        "seguinos": "Seguinos",
+        "horario": "Lun a Sab de 8 a 18 hs",
+        "copy": "2025 Corona Roja. Todos los derechos reservados."
+    },
+
+    "hero": {
+        "title-1": "Corona Roja", 
+        "text-1": "100% origen Argentina",
+        "title-2": "Producto Artesanal", 
+        "text-2": "Con la calidad de siempre", 
+        "title-3": "Miel Pura y sin Mezcla", 
+        "text-3": "Directo del apicultor"
+    },
+    
+    "saludable": {
+        "title-1": "Aliméntate Saludable", 
+        "text-1": "Nuestra miel 100% natural es la elección perfecta para quienes buscan cuidar su salud sin renunciar al sabor. Elegir Corona Roja es optar por pureza, calidad y el poder nutritivo de la naturaleza en cada gota."
+    },
+
+    "productos": {
+        "title": "Nuestros Productos",
+        "titleMiel": "Miel Pura - 1kg",
+        "descripcion": "Frasco de vidrio, 100% miel natural sin conservantes.",
+        "boton": "Ver producto",
+        "titleMiel-2": "Miel Pura - 500g",
+        "descripcion-2": "Envase de vidrio, tamaño ideal para uso diario.",
+        "titleMiel-3": "Miel Pura - 250g",
+        "descripcion-3": "Pote compacto y práctico para regalar o viajar.",
+        "titleMiel-4": "Miel Pura - 40g",
+        "descripcion-4": "Perfecto para probar el sabor auténtico de nuestra miel.", 
+        "titleMiel-5": "Pack Miel Pura - 20g", 
+        "descripcion-5": "Mini frasco para souvenirs o degustaciones."
+    },
+    "productoBeneficio": {
+        "segura": "Compra Segura",
+        "natural": "Miel 100% Natural",
+        "saludable": "Alimento Seguro y Saludable",
+        "atencion": "Atencion 24hs"
+    },
+    "nosotros": {
+        "title": "¿Quiénes Somos?", 
+        "descripcion": " No solo producimos miel, creamos experiencias que conectan con la naturaleza. Nuestra colmena es tu historia. Vivimos para honrar lo artesanal y lo simple.",
+        "boton": "Descubre más"
+    },
+
+
+    "nosotrosPag": {
+        "title": "Nuestra Historia",
+        "text-1": "Corona Roja comenzó mucho antes. Todo empezó con los abuelos de nuestra familia, quienes, en Jujuy, Argentina, dedicaron su vida a la apicultura. Siendo pioneros en nuestra historia familiar. Desde el principio, su compromiso fue claro: producir miel 100% natural, respetando siempre el equilibrio de la naturaleza y el bienestar de las abejas.",
+        "text-2": "Con los años, esa pasión pasó de generación en generación, hasta que nuestra familia decidió continuar con la tradición en Cruz del Eje, Córdoba. Así nació Corona Roja, con el mismo propósito de siempre: llevar a tu mesa miel pura, sin agregados ni procesos industriales, elaborada con el cuidado y amor de siempre.",
+        "subtitle-1": "De nuestra familia a la tuya",
+        "text-3": "Nosotros mismos nos encargamos de todo el proceso; a partir de nuestros apiarios cosechamos y envasamos cada frasco de miel para asegurarnos de que llegue a cada hogar con su sabor auténtico y todas sus propiedades intactas. Creemos en el trabajo artesanal y en la importancia de ofrecerte un producto realmente natural, sin atajos ni químicos que alteren su calidad.",
+        "subtitle-2": "Más que miel, un compromiso",
+        "text-4": "Lo que comenzó como una producción familiar hoy llega a hogares, comercios e industrias que buscan calidad y confianza en cada frasco. Sabemos que cuando elegís nuestra miel, no solo buscás un buen producto, sino también una historia de tradición y respeto por la naturaleza.",
+        "text-5": "Trabajamos con prácticas responsables, porque creemos que el cuidado de las abejas es fundamental para el equilibrio del ecosistema.",
+        "subtitle-3": "Un nuevo paso: el mundo digital",
+        "text-6": "Hoy, después de años de trabajo, sentimos que es momento de dar un paso más y llevar Corona Roja al mundo digital. Queremos que más personas puedan disfrutar de nuestra miel y conocer la historia que hay detrás de cada frasco",
+        "text-7": "Si buscás miel pura, hecha con dedicación y tradición, queremos que sepas que en Corona Roja la vas a encontrar."
+    },
+
+    "proceso": {
+        "title": "Proceso",
+        "subtitle-1": "Cuidado de las colmenas",
+        "text-1": "Nuestros apiarios están ubicados en Cruz del Eje, Córdoba, donde las abejas trabajan en un entorno natural. Nos aseguramos de que las colmenas estén saludables y protegidas, respetando su ciclo natural y promoviendo una producción sostenible.",
+        "subtitle-2": "Cosecha de la miel",
+        "text-2": "Cuando la miel alcanza su punto óptimo de maduración, realizamos la cosecha con técnicas que garantizan la calidad del producto y el bienestar de las abejas. Extraemos los panales con cuidado, asegurándonos de conservar su pureza.",
+        "subtitle-3": "Extracción y filtrado",
+        "text-3": "Utilizamos métodos tradicionales para extraer la miel sin alterar sus propiedades. Luego, la filtramos para eliminar impurezas naturales como restos de cera, garantizando una textura suave y homogénea.",
+        "subtitle-4": "Envasado y etiquetado",
+        "text-4": "Cada frasco de miel se envasa en nuestra planta, asegurando higiene y control de calidad en cada etapa. Luego, colocamos las etiquetas con la identidad de Corona Roja, destacando la historia y el origen de nuestra miel.",
+        "subtitle-5": "Distribución y venta",
+        "text-5": "Nuestra miel llega a particulares, comercios y hoteles, conservando siempre su sabor auténtico y natural. Nos aseguramos de que cada cliente reciba un producto fresco y de calidad."
+    }
+}

@@ -1,0 +1,86 @@
+{
+
+    "barra__navegacion": {
+        "inicio": "Home",
+        "productos": "Products",
+        "nosotros": "About Us",
+        "proceso": "Process"
+    },
+    "footer": {
+        "descripcion": "Corona Roja is 100% natural honey, produced with passion and artisanal care in Córdoba, Argentina.",
+        "contacto": "Contact",
+        "seguinos": "Follow Us",
+        "horario": "Mon to Sat from 8 AM to 6 PM",
+        "copy": "2025 Corona Roja. All rights reserved."
+    },
+
+    "hero": {
+        "title-1": "Corona Roja",
+        "text-1": "100% Argentine origin",
+        "title-2": "Artisanal Product",
+        "text-2": "With the same quality as always",
+        "title-3": "Pure and unmixed honey",
+        "text-3": "Direct from the beekeeper"
+    },
+
+    "saludable": {
+        "title-1": "Eat Healthy", 
+        "text-1": "Our 100% natural honey is the perfect choice for those looking to take care of their health without sacrificing flavor. Choosing Corona Roja is choosing purity, quality, and the nourishing power of nature in every drop."
+    },
+
+    "productos": {
+        "title": "Our Products",
+        "titleMiel": "Pure Honey - 1kg",
+        "descripcion": "Glass jar, 100% natural honey with no preservatives.",
+        "boton": "View Product",
+        "titleMiel-2": "Pure Honey - 500g",
+        "descripcion-2": "Glass container, ideal size for daily use.",
+        "titleMiel-3": "Pure Honey - 250g",
+        "descripcion-3": "Compact and practical jar for gifting or travel.",
+        "titleMiel-4": "Pure Honey - 40g",
+        "descripcion-4": "Perfect for tasting the authentic flavor of our honey.", 
+        "titleMiel-5": "Pure Honey - 20g", 
+        "descripcion-5": "Mini jar for souvenirs or tastings."
+    },
+    "productoBeneficio": {
+        "segura": "Secure Shopping",
+        "natural": "100% Natural Honey",
+        "saludable": "Safe and Healthy Food",
+        "atencion": "24hr Support"
+    },
+    "nosotros": {
+        "title": "Who Are We?", 
+        "descripcion": "We don't just produce honey, we create experiences that connect you with nature. Our hive is your story. We live to honor the artisanal and the simple",
+        "boton": "Discover More"
+    },
+
+
+
+    "nosotrosPag": {
+        "title": "Our Story",
+        "text-1": "The story of Corona Roja began long before. It all started with our family's grandparents, who dedicated their lives to beekeeping in Jujuy, Argentina. They were pioneers in our family history. From the beginning, their commitment was clear: to produce 100% natural honey, always respecting the balance of nature and the well-being of the bees.",
+        "text-2": "Over the years, that passion passed from generation to generation, until our family decided to continue the tradition in Cruz del Eje, Córdoba. Thus, Corona Roja was born, with the same purpose as always: to bring pure honey to your table, without additives or industrial processes, made with the same care and love as always.",
+        "subtitle-1": "From our family to yours.",
+        "text-3": "We ourselves take care of the entire process; from our apiaries, we harvest and package each jar of honey to ensure that it reaches every home with its authentic flavor and all its properties intact. We believe in artisanal work and the importance of offering you a truly natural product, without shortcuts or chemicals that alter its quality.",
+        "subtitle-2": "More than honey, a commitment.",
+        "text-4": "What began as a family production now reaches homes, businesses, and industries that seek quality and trust in every jar. We know that when you choose our honey, you are not only looking for a good product, but also a story of tradition and respect for nature.",
+        "text-5": "We work with responsible practices, because we believe that caring for bees is fundamental to the balance of the ecosystem.",
+        "subtitle-3": "A new step: the digital world.",
+        "text-6": "Today, after years of work, we feel it is time to take another step and bring Corona Roja to the digital world. We want more people to enjoy our honey and learn about the story behind each jar.",
+        "text-7": "If you are looking for pure honey, made with dedication and tradition, we want you to know that you will find it at Corona Roja."
+    },
+
+    "proceso": {
+        "title": "Process",
+        "subtitle-1": "Hive Care",
+        "text-1": "Our apiaries are located in Cruz del Eje, Córdoba, where the bees work in a natural environment. We ensure that the hives are healthy and protected, respecting their natural cycle and promoting sustainable production.",
+        "subtitle-2": "Honey Harvesting",
+        "text-2": "When the honey reaches its optimal point of maturity, we harvest it using techniques that guarantee the quality of the product and the well-being of the bees. We carefully extract the honeycombs, ensuring that their purity is preserved.",
+        "subtitle-3": "Extraction and Filtering",
+        "text-3": "We use traditional methods to extract the honey without altering its properties. Then, we filter it to remove natural impurities such as wax residue, ensuring a smooth and homogeneous texture.",
+        "subtitle-4": "Packaging and Labeling",
+        "text-4": "Each jar of honey is packaged in our facility, ensuring hygiene and quality control at every stage. Then, we apply the Corona Roja labels, highlighting the history and origin of our honey.",
+        "subtitle-5": "Distribution and Sale",
+        "text-5": "Our honey reaches individuals, businesses, and hotels, always preserving its authentic and natural flavor. We ensure that each customer receives a fresh and quality product."
+    }
+}
