@@ -411,6 +411,8 @@ li {
     background-color: var(--secundario);
     color: #fff;
     padding: 1rem;
+    border: none;
+    cursor: pointer;
     border-radius: 0.5rem;
     text-align: center;
     text-decoration: none;
@@ -450,8 +452,8 @@ li {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -484,8 +486,9 @@ li {
     gap: 2rem;
 }
 .modal__img {
-    width: 45%; /* Para que se vea bien en pantallas +1300px */
-    height: 45%;
+    width: 40%; /* Para que se vea bien en pantallas +1300px */
+    height: 40%;
+    margin: 0 auto;
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(98, 64, 30, .9);
     transition: transform 0.3s ease;
@@ -883,6 +886,7 @@ body.modal-open {
     position: relative;
     z-index: 10;
     background-color: var(--blanco);
+    overflow: hidden;
 }
 
 .proceso__pasos {

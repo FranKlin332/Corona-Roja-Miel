@@ -2,28 +2,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // ------------ SWIPER HEADER -----------
     const swiper = new Swiper('.mySwiper-1', {
         direction: 'horizontal',
-        loop: true, // si llega a la ultima foto, vuelve a la primera
+        loop: true,
         autoplay: {
-            delay: 6000, // pase automaticamente
+            delay: 6000,
         },
-
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
-        on: { // Estas funciones están dentro de la configuración de Swiper y controlan lo que pasa cuando cambias de slide.
+        on: {
             slideChangeTransitionStart: function () {
-                // Oculta todos los textos
                 document.querySelectorAll('.hero__contenido').forEach(el => {
-                    el.classList.remove('mostrar'); // Quita la clase mostrar a todos los elementos .hero__contenido. Para asegurarse de que no se muestre texto en los otros slides mientras cambia el slide.
-                }); 
+                    el.classList.remove('mostrar');
+                });
             },
             slideChangeTransitionEnd: function () {
-                // Muestra el texto del slide activo
                 const activeSlide = document.querySelector('.swiper-slide-active .hero__contenido');
                 if (activeSlide) {
-                    activeSlide.classList.add('mostrar'); // Busca el texto (.hero__contenido) del slide activo y le añade la clase mostrar.
+                    activeSlide.classList.add('mostrar');
                 }
             }
         }
@@ -44,13 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-
     // --------------------- MODAL --> FICHA -------------------
     const modal = document.querySelector('#modal');
     const modalImg = document.querySelector('#modalImg');
     const modalClose = document.querySelector('#modalClose');
     const modalOverlay = document.querySelector('#modalOverlay');
-
     const btns = document.querySelectorAll('.producto__btn');
 
     const fichas = {
@@ -61,21 +55,40 @@ document.addEventListener("DOMContentLoaded", () => {
         4: 'img/ficha-20g.png'
     };
 
+    // Precargar las imágenes
+    Object.values(fichas).forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+
     btns.forEach((btn, index) => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            modalImg.src = fichas[index];
-            modal.classList.add('modal--visible');
-            document.body.classList.add('modal-open');
-        });
+            modalImg.src = fichas[index]; // Se cambia la imagen del modal por la ficha correcta según el index.
+            modal.classList.add('modal--visible'); // muestra el modal
+            document.body.classList.add('modal-open'); // Se desactiva el scroll del fondo 
+        }); 
     });
 
-    modalClose.addEventListener('click', closeModal);
-    modalOverlay.addEventListener('click', closeModal);
+    modalClose.addEventListener('click', closeModal); // con "X"
+
+    // Cerrar modal si se hace clic fuera de la imagen
+    modal.addEventListener('click', function (e) {
+        if ( // Si el clic ocurre sobre:
+            e.target === modal || // el fondo
+            e.target === modalOverlay || // el overlay
+            e.target === modal.querySelector('.modal__content')
+        ) {
+            closeModal();
+        }
+    });
+
+    // Prevenir cierre si se hace clic en la imagen
+    modalImg.addEventListener('click', (e) => e.stopPropagation());
 
     function closeModal() {
         modal.classList.remove('modal--visible');
         document.body.classList.remove('modal-open');
         modalImg.src = '';
     }
-})
+});
