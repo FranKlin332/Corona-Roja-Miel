@@ -459,4 +459,9 @@
         width: 10rem;
         opacity: .7;
     }
+
+    .hero {
+        height: min(100vh, 60rem);
+        overflow: hidden;
+    }
 }

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // ------------ SWIPER HEADER -----------
     const swiper = new Swiper('.mySwiper-1', {
         direction: 'horizontal',
         loop: true,
@@ -11,6 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
             prevEl: '.swiper-button-prev',
         },
         on: {
+            init: function () {
+                // Esperar un poco para asegurar que el texto esté cargado
+                setTimeout(() => {
+                    const activeSlide = document.querySelector('.swiper-slide-active .hero__contenido');
+                    if (activeSlide) {
+                        activeSlide.classList.add('mostrar');
+                    }
+                }, 100); // podés ajustar este valor si hace falta
+            },
             slideChangeTransitionStart: function () {
                 document.querySelectorAll('.hero__contenido').forEach(el => {
                     el.classList.remove('mostrar');
@@ -25,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // Mantenimiento
     if (
         document.visibilityState === 'visible' &&
         typeof swiper !== 'undefined' &&
@@ -33,11 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ) {
         swiper.update();
         swiper.slideTo(swiper.activeIndex, 0, false);
-
-        const activeSlide = document.querySelector('.swiper-slide-active .hero__contenido');
-        if (activeSlide) {
-            activeSlide.classList.add('mostrar');
-        }
     }
 
     // --------------------- MODAL --> FICHA -------------------

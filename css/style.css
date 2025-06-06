@@ -218,10 +218,10 @@ li {
 }
 /* Imágenes de fondo distintas */
 .hero__slide-1{
-    background-image: url(../img/hero1.jpg);
+    background-image: url(../img/hero1.webp);
 }
 .hero__slide-2 {
-    background-image: url(../img/hero2.jpg);
+    background-image: url(../img/hero2.webp);
 }
 .hero__slide-3 {
     background-image: url(../img/hero3.jpg);
