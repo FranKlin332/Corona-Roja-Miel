@@ -311,6 +311,11 @@
     .footer__left {
         flex-direction: column;
     }
+
+    .hero {
+        height: 100vh;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 546px){ 
@@ -341,13 +346,6 @@
     .producto__estrellas {
         width: 8rem;
         top: 69%;
-    }
-    .producto__card:last-of-type .producto__estrellas {
-        top: 66%;
-    }
-    .productos__panel {
-        top: 88%;
-        right: -20%;
     }
 }
 
@@ -458,10 +456,5 @@
     .nosotrosPag__panel {
         width: 10rem;
         opacity: .7;
-    }
-
-    .hero {
-        height: min(100vh, 60rem);
-        overflow: hidden;
     }
 }
